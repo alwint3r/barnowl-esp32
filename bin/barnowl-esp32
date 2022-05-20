@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const express = require("express");
+const BarnowlEsp32 = require("../lib/barnowlesp32.js");
+
+const app = express();
+
+app.use(express.json());
+
+let barnowl = new BarnowlEsp32();
+
+barnowl.addListener(BarnowlEsp32.HttpListener, { app, express });
+
+barnowl.on("raddec", function (raddec) {
+  console.log(raddec.toFlattened());
+});
+
+app.listen(3001, () => {
+  console.log("Listening on port 3001");
+});

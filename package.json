@@ -1,0 +1,17 @@
+{
+  "name": "barnowl-esp32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/barnowlesp32.js",
+  "scripts": {
+    "start": "node bin/barnowl-esp32"
+  },
+  "keywords": [],
+  "author": "Alwin Arrasyid <alwin.ridd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "raddec": "^0.2.8"
+  }
+}
