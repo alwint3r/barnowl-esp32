@@ -1,6 +1,6 @@
 # Barnowl ESP32
 
-Converts BLE packets from any ESP32-powered devices into [raddecs](github.com/reelyactive/raddec).
+Converts BLE packets from any ESP32-powered devices into [raddecs](https://github.com/reelyactive/raddec).
 
 This project is heavily inspired by reelyActive's [Barnowl](https://github.com/reelyactive/barnowl).
 
@@ -10,7 +10,7 @@ See `bin/barnowl-esp32` for complete standalone code.
 
 ## Data Structure
 
-The data structure resembles the [raddec](github.com/reelyactive/raddec) structure.
+The data structure resembles the [raddec](https://github.com/reelyactive/raddec) structure.
 
 ```json
 {
